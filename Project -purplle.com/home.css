@@ -1,0 +1,1273 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: red; */
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.advertisement {
+    background-color: rgb(249, 211, 232);
+}
+
+.advertisement div {
+    margin-left: 15%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    height: 52px;
+}
+
+#applink {
+    background-color: rgb(255, 20, 123);
+    color: #ffffff;
+    width: 150px;
+    height: 47px;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-top: 2px;
+    border: none;
+}
+
+.advertisement img {
+    height: 40px;
+    margin-top: 5px;
+}
+
+.advertisement p:nth-child(3) {
+    border: 3px dotted rgb(255, 20, 123);
+    background-color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    /* padding: 0.3%; */
+}
+
+.advertisement p:nth-child(3) span {
+    color: rgb(255, 20, 123);
+    font-weight: bolder;
+}
+
+#closead {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+}
+
+/* app/support/cart starts here */
+.middlenav {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    height: 30px;
+}
+
+.middlenav div {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: right;
+
+}
+
+.middlenav img {
+    height: 20px;
+    margin-top: 2px;
+}
+
+.middlenav span {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.middlenav div a {
+    margin-top: 4px;
+}
+
+.middlenav button {
+    background-color: transparent;
+    border: none;
+}
+
+
+
+/* iconbox starts here  */
+.iconbox {
+    top: 0;
+    position: sticky;
+    background-color: white;
+    height: 84px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.iconbox #icon_cont {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.iconbox input {
+    width: 200px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid purple;
+    height: 30px;
+    border-color: purple;
+    text-align: center;
+    font-size: 16px;
+    outline: none;
+    margin-top: 25px;
+}
+
+.iconbox #logo {
+    display: flex;
+    margin: 3px auto;
+    justify-self: center;
+    height: 80px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.iconbox button {
+    font-size: 30px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    margin-top: 10px;
+}
+
+.iconbox div div img {
+    margin-top: 15px;
+    height: 35px;
+}
+
+#hovermenu {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-size: 25px;
+
+}
+
+/* menu starts here  */
+.menu {
+    position: sticky;
+    top: 84px;
+    background-color: white;
+    height: 40px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.menu div {
+    width: 65%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    list-style: none;
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    margin-top: 10px;
+    color: black;
+}
+
+.menu div a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+}
+
+/* dropdown menu entirely  */
+
+#mainbar {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+#mainbar p {
+    font-size: 19px;
+    letter-spacing: .07px;
+    color: #0e0e0e;
+    line-height: 13px;
+
+}
+
+#mainbar div {
+    position: relative;
+    cursor: pointer;
+}
+
+#mainbar div div {
+    padding-left: 20px;
+}
+
+.hoverit {
+    display: flex;
+    overflow: scroll;
+    max-height: 500px;
+}
+
+/* Customize the scrollbar for the hoverit container */
+.hoverit::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Customize the scrollbar track */
+.hoverit::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+/* Customize the scrollbar thumb */
+.hoverit::-webkit-scrollbar-thumb {
+    background-color: #f70303;
+    border-radius: 10px;
+}
+
+/* Customize the scrollbar thumb on hover */
+.hoverit::-webkit-scrollbar-thumb:hover {
+    background-color: #e70101;
+}
+
+#mainbar div a {
+    display: block;
+    text-decoration: none;
+    padding-bottom: 10px;
+    color: black;
+}
+
+#mainbar div p:hover {
+    text-decoration: none;
+    border-bottom: 3px solid red;
+}
+
+#mainbar div a:hover {
+    color: blue;
+    text-decoration: none;
+    border-bottom: 2px solid blue;
+}
+
+
+#mainbar div section {
+    background-color: white;
+    padding: 15px;
+    position: absolute;
+    /* width: 1000px; */
+    /* width: max-content; */
+    min-width: 900px;
+    display: none;
+    z-index: 10;
+    left: 0;
+    margin-top: 50px;
+}
+
+#mainbar div section div {
+    padding: 20px;
+    min-height: 1000px;
+    min-width: 170px;
+}
+
+#mainbar div section div:nth-child(2) {
+    background-color: whitesmoke;
+
+}
+
+#mainbar div section div:nth-child(4) {
+    background-color: whitesmoke;
+}
+
+
+#mainbar div:hover section {
+    display: block;
+    left: 0;
+    transform: translate(-20%, 0%);
+}
+
+/* dropdown menu ends here  */
+
+#slideshow1 {
+    width: 70%;
+    display: flex;
+    margin: 5px auto;
+}
+
+#slideshow1 img {
+    width: 100%;
+}
+
+.imagedisplay1 {
+    width: 70%;
+    margin: auto;
+}
+
+.imagedisplay1 img {
+    width: 99%;
+    margin-left: 8px;
+}
+
+
+/* slideshow2_1 starts here  */
+
+#slideshow2_1 {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    line-height: 5px;
+    transition: opacity 1s ease-in-out;
+}
+
+#slideshow2_1 img {
+    width: 100%;
+    margin: auto;
+}
+
+.slidetext {
+    width: 70%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-between;
+    font-size: 23px;
+}
+
+.slidetext a:nth-child(2) {
+    color: rgb(229, 18, 132);
+}
+
+#rightArrow {
+    background-color: transparent;
+    border: none;
+    font-size: 60px;
+    position: absolute;
+    right: 14%;
+    margin-top: 100px;
+    color: grey;
+}
+
+#leftArrow {
+    background-color: transparent;
+    border: none;
+    font-size: 60px;
+    position: absolute;
+    left: 14%;
+    margin-top: 100px;
+    color: grey;
+}
+
+/* slideshow div 2 starts here  */
+#slideshow3_1 {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    transition: opacity 1s ease-in-out;
+}
+
+#slideshow3_1 img {
+    width: 100%;
+    margin: auto;
+}
+
+#rightArrow1 {
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    position: absolute;
+    right: 14%;
+    margin-top: 100px;
+    color: grey;
+}
+
+#leftArrow1 {
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    position: absolute;
+    left: 14%;
+    margin-top: 100px;
+    color: grey;
+}
+
+
+/* image display 2 starts here  */
+.imagedisplay2 {
+    width: 70%;
+    margin: 15px auto;
+}
+
+.imagedisplay2 img {
+    width: 96%;
+    margin-left: 25px;
+}
+
+/* categoriesmenudiv starts here  */
+
+.categoriesmenudiv {
+    width: 70%;
+    margin: auto;
+
+}
+
+.categoriesmenudiv h1 {
+    font-size: 25px;
+}
+
+.categoriesmenudiv div {
+    display: flex;
+    margin: auto;
+}
+
+.categoriesmenudiv div div {
+    display: flex;
+    flex-direction: column;
+}
+
+.categoriesmenudiv div img {
+    width: 100%;
+}
+
+/* third window slideshow div starts here  */
+#slideshow4_1 {
+    width: 70%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+    line-height: 5px;
+    transition: opacity 1s ease-in-out;
+}
+
+#slideshow4_1 img {
+    width: 100%;
+    margin: auto;
+}
+
+#rightArrow2 {
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    position: absolute;
+    right: 14%;
+    margin-top: 100px;
+    color: grey;
+}
+
+#leftArrow2 {
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    position: absolute;
+    left: 14%;
+    margin-top: 100px;
+    color: grey;
+}
+
+/* third window slideshow div ends here  */
+
+
+/* firstgrid starts here   */
+.firstgrid {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.firstgrid img {
+    width: 100%;
+}
+
+/* firstgrid ends here   */
+
+
+
+
+.imagedisplay2 {
+    width: 70%;
+    margin: auto;
+}
+
+.imagedisplay2 img {
+    width: 100%;
+    margin-left: -20px;
+}
+
+
+
+
+
+/* fourth window slideshow starts here  */
+#slideshow5_1 {
+    width: 70%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+    line-height: 5px;
+    transition: opacity 1s ease-in-out;
+}
+
+#slideshow5_1 img {
+    width: 100%;
+    margin: auto;
+}
+
+#rightArrow3 {
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    position: absolute;
+    right: 14%;
+    margin-top: 100px;
+    color: grey;
+}
+
+#leftArrow3 {
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    position: absolute;
+    left: 14%;
+    margin-top: 100px;
+    color: grey;
+}
+
+/* fourth window slideshow ends here  */
+
+
+
+/* second grid starts here  */
+.secondgrid {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.secondgrid img {
+    width: 100%;
+}
+
+/* second grid ends here  */
+
+.imagedisplay3 {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.imagedisplay3 img {
+    width: 100%;
+    margin-left: -20px;
+}
+
+
+
+
+/* fifth window slideshow starts here  */
+#slideshow6_1 {
+    width: 70%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+    line-height: 5px;
+    transition: opacity 1s ease-in-out;
+}
+
+#slideshow6_1 img {
+    width: 80%;
+    margin: auto;
+}
+
+#rightArrow4 {
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    position: absolute;
+    right: 14%;
+    margin-top: 100px;
+    color: grey;
+}
+
+#leftArrow4 {
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    position: absolute;
+    left: 14%;
+    margin-top: 100px;
+    color: grey;
+}
+
+/* fifth window slideshow ends here  */
+
+
+
+/* sixth window slideshow starts here  */
+#slideshow7_1 {
+    width: 70%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+    line-height: 5px;
+    transition: opacity 1s ease-in-out;
+}
+
+#slideshow7_1 img {
+    width: 100%;
+    margin: auto;
+}
+
+#rightArrow5 {
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    position: absolute;
+    right: 13%;
+    margin-top: 200px;
+    color: grey;
+}
+
+#leftArrow5 {
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    position: absolute;
+    left: 13%;
+    margin-top: 200px;
+    color: grey;
+}
+
+/* sixth window slideshow ends here  */
+
+
+
+/* Seventh window starts here  */
+#slideshow8_1 {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    line-height: 5px;
+    transition: opacity 1s ease-in-out;
+}
+
+#slideshow8_1 img {
+    width: 100%;
+    margin: auto;
+}
+
+#rightArrow6 {
+    background-color: transparent;
+    border: none;
+    font-size: 60px;
+    position: absolute;
+    right: 14%;
+    margin-top: 100px;
+    color: grey;
+}
+
+#leftArrow6 {
+    background-color: transparent;
+    border: none;
+    font-size: 60px;
+    position: absolute;
+    left: 14%;
+    margin-top: 100px;
+    color: grey;
+}
+
+/* seventh window ends here  */
+
+
+
+
+/* eight window starts here  */
+#slideshow9_1 {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    line-height: 5px;
+    transition: opacity 1s ease-in-out;
+}
+
+#slideshow9_1 img {
+    width: 90%;
+    /* height: 400px; */
+    margin: auto;
+}
+
+#rightArrow7 {
+    background-color: transparent;
+    border: none;
+    font-size: 60px;
+    position: absolute;
+    right: 13%;
+    margin-top: 150px;
+    color: grey;
+}
+
+#leftArrow7 {
+    background-color: transparent;
+    border: none;
+    font-size: 60px;
+    position: absolute;
+    left: 13%;
+    margin-top: 150px;
+    color: grey;
+}
+
+/* eigth window ends here  */
+
+
+/* ninth window starts here  */
+#slideshow10_1 {
+    width: 70%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+    line-height: 5px;
+    transition: opacity 1s ease-in-out;
+}
+
+#slideshow10_1 img {
+    width: 100%;
+    /* height: 400px; */
+    margin: auto;
+}
+
+#rightArrow8 {
+    background-color: transparent;
+    border: none;
+    font-size: 60px;
+    position: absolute;
+    right: 13%;
+    margin-top: 150px;
+    color: grey;
+}
+
+#leftArrow8 {
+    background-color: transparent;
+    border: none;
+    font-size: 60px;
+    position: absolute;
+    left: 13%;
+    margin-top: 150px;
+    color: grey;
+}
+
+/* ninth window ends here  */
+
+
+
+
+
+/* tenth window starts here  */
+.slideshow11 div {
+    width: 70%;
+    margin: auto;
+}
+
+#slideshow11_1 {
+    width: 70%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+    line-height: 5px;
+    transition: opacity 1s ease-in-out;
+}
+
+#slideshow11_1 img {
+    width: 90%;
+    /* height: 400px; */
+    margin: auto;
+}
+
+#rightArrow9 {
+    background-color: transparent;
+    border: none;
+    font-size: 60px;
+    position: absolute;
+    right: 13%;
+    margin-top: 100px;
+    color: grey;
+}
+
+#leftArrow9 {
+    background-color: transparent;
+    border: none;
+    font-size: 60px;
+    position: absolute;
+    left: 13%;
+    margin-top: 100px;
+    color: grey;
+}
+
+/* tenth window ends here  */
+
+
+/* third grid starts here  */
+.thirdgrid {
+    width: 70%;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.thirdgrid img {
+    width: 100%;
+}
+
+/* third grid ends here  */
+
+
+
+
+
+/* 11th window starts here  */
+.slideshow12 div {
+    width: 70%;
+    margin: auto;
+}
+
+#slideshow12_1 {
+    width: 70%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+    line-height: 5px;
+    transition: opacity 1s ease-in-out;
+}
+
+#slideshow12_1 img {
+    width: 90%;
+    /* height: 400px; */
+    margin: auto;
+}
+
+#rightArrow10 {
+    background-color: transparent;
+    border: none;
+    font-size: 60px;
+    position: absolute;
+    right: 13%;
+    margin-top: 100px;
+    color: grey;
+}
+
+#leftArrow10 {
+    background-color: transparent;
+    border: none;
+    font-size: 60px;
+    position: absolute;
+    left: 13%;
+    margin-top: 100px;
+    color: grey;
+}
+
+/* 11th window ends here  */
+
+
+
+/* 12th window starts here  */
+#slideshow13_1 {
+    width: 70%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+    line-height: 5px;
+    transition: opacity 1s ease-in-out;
+}
+
+#slideshow13_1 img {
+    width: 100%;
+    /* height: 400px; */
+    margin: auto;
+}
+
+#rightArrow11 {
+    background-color: transparent;
+    border: none;
+    font-size: 60px;
+    position: absolute;
+    right: 13%;
+    margin-top: 170px;
+    color: grey;
+}
+
+#leftArrow11 {
+    background-color: transparent;
+    border: none;
+    font-size: 60px;
+    position: absolute;
+    left: 13%;
+    margin-top: 170px;
+    color: grey;
+}
+
+/* 12th window ends here  */
+
+
+
+
+
+/* 13th window starts here  */
+#slideshow14_1 {
+    width: 70%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+    line-height: 5px;
+    transition: opacity 1s ease-in-out;
+}
+
+#slideshow14_1 img {
+    width: 90%;
+    /* height: 400px; */
+    margin: auto;
+}
+
+#rightArrow12 {
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    position: absolute;
+    right: 14.5%;
+    margin-top: 50px;
+    color: grey;
+}
+
+#leftArrow12 {
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    position: absolute;
+    left: 14.5%;
+    margin-top: 50px;
+    color: grey;
+}
+
+/* 13th window ends here  */
+
+
+
+
+/* 14th window starts here  */
+#slideshow15_1 {
+    width: 70%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+    line-height: 5px;
+    transition: opacity 1s ease-in-out;
+}
+
+#slideshow15_1 img {
+    width: 95%;
+    /* height: 400px; */
+    margin: auto;
+}
+
+#rightArrow13 {
+    background-color: transparent;
+    border: none;
+    font-size: 60px;
+    position: absolute;
+    right: 13.5%;
+    margin-top: 150px;
+    color: grey;
+}
+
+#leftArrow13 {
+    background-color: transparent;
+    border: none;
+    font-size: 60px;
+    position: absolute;
+    left: 13.5%;
+    margin-top: 150px;
+    color: grey;
+}
+
+/* 14th window ends here  */
+
+
+
+
+
+/* 15th window starts here  */
+#slideshow16_1 {
+    width: 70%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+    line-height: 5px;
+    transition: opacity 1s ease-in-out;
+}
+
+#slideshow16_1 img {
+    width: 95%;
+    /* height: 400px; */
+    margin: auto;
+}
+
+#rightArrow14 {
+    background-color: transparent;
+    border: none;
+    font-size: 60px;
+    position: absolute;
+    right: 13.5%;
+    margin-top: 150px;
+    color: grey;
+}
+
+#leftArrow14 {
+    background-color: transparent;
+    border: none;
+    font-size: 60px;
+    position: absolute;
+    left: 13.5%;
+    margin-top: 150px;
+    color: grey;
+}
+
+/* 15th window ends here  */
+
+
+
+/* fourth grid starts here  */
+.fourthgrid div:nth-child(1) {
+    width: 70%;
+    margin: auto;
+}
+
+.fourthgrid1 {
+    width: 70%;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.fourthgrid1 img {
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+/* fourth grid ends here  */
+
+/* 5th grid display starts here  */
+.fifthgrid {
+
+    /* margin-right: 10px; */
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.fifthgrid div {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    /* height: 150px; */
+    justify-content: center;
+}
+
+.fifthgrid div div {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 15px;
+}
+
+.fifthgrid div h1 {
+    font-size: 25px;
+}
+
+.fifthgrid img {
+    width: 60%;
+    margin-left: 20%;
+}
+
+/* 5th grid display ends here  */
+
+.flexdisplay {
+    background-color: rgb(245, 246, 247);
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.flexdisplay .firstdiv {
+    width: 65%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.flexdisplay .seconddiv {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.flexdisplay h2 {
+    font-size: 30px;
+}
+
+.creatediv {
+    background-color: rgb(244, 143, 177);
+    display: flex;
+    width: 40%;
+    /* margin-left: 300px; */
+    height: 250px;
+    padding: 20px;
+    color: white;
+}
+
+.creatediv h1 {
+    font-size: 25px;
+}
+
+
+.footer {
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+.footer #innerF {
+    background-color: rgb(245, 246, 247);
+    width: 70%;
+    margin: auto;
+    /* display: flex; */
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+#innerF div {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    line-height: 25px;
+}
+
+#innerF div h4 {
+    margin-left: -30px;
+}
+
+#innerF div p {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#footerlinks {
+    width: 60%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#footerlinks div {
+    display: flex;
+    line-height: 0px;
+    flex-direction: column;
+}
+
+#sponsors #divs2 {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.payment {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.payment img {
+    margin-top: 10px;
+}
+
+.connect {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.connect img {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.copyright {
+    width: 70%;
+    margin: auto;
+    font: 20px;
+    color: grey;
+}
+
+
+/* // scroll button  */
+#scrollupbtn img {
+    width: 30px;
+}
+
+#scrollupbtn {
+    display: none;
+    position: fixed;
+    bottom: 5%;
+    width: 70px;
+    right: 0;
+    z-index: 99;
+    font-size: 18px;
+    border-radius: 70%;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 10px black;
+    background-color: white;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 15px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#scrollupbtn.show {
+    opacity: 1;
+}

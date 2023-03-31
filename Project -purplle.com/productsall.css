@@ -1,0 +1,509 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: red; */
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+}
+.advertisement {
+    background-color: rgb(249, 211, 232);
+}
+
+.advertisement div {
+    margin-left: 15%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    height: 52px;
+}
+
+#applink {
+    background-color: rgb(255, 20, 123);
+    color: #ffffff;
+    width: 150px;
+    height: 47px;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-top: 2px;
+    border: none;
+}
+
+.advertisement img {
+    height: 40px;
+    margin-top: 5px;
+}
+
+.advertisement p:nth-child(3) {
+    border: 3px dotted rgb(255, 20, 123);
+    background-color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    /* padding: 0.3%; */
+}
+
+.advertisement p:nth-child(3) span {
+    color: rgb(255, 20, 123);
+    font-weight: bolder;
+}
+
+#closead {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+}
+
+/* app/support/cart starts here */
+.middlenav {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    height: 30px;
+}
+
+.middlenav div {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: right;
+
+}
+
+.middlenav img {
+    height: 20px;
+    margin-top: 2px;
+}
+
+.middlenav span {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.middlenav div a {
+    margin-top: 4px;
+}
+
+.middlenav button {
+    background-color: transparent;
+    border: none;
+}
+
+
+
+/* iconbox starts here  */
+.iconbox {
+    top: 0;
+    position: sticky;
+    background-color: white;
+    height: 84px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.iconbox #icon_cont {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.iconbox input {
+    width: 200px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid purple;
+    height: 30px;
+    border-color: purple;
+    text-align: center;
+    font-size: 16px;
+    outline: none;
+    margin-top: 25px;
+}
+
+.iconbox #logo {
+    display: flex;
+    margin: 3px auto;
+    justify-self: center;
+    height: 80px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.iconbox button {
+    font-size: 30px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    margin-top: 10px;
+}
+
+.iconbox div div img {
+    margin-top: 15px;
+    height: 35px;
+}
+
+#hovermenu {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-size: 25px;
+
+}
+
+/* menu starts here  */
+.menu {
+    position: sticky;
+    top: 84px;
+    background-color: white;
+    height: 40px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.menu div {
+    width: 65%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    list-style: none;
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    margin-top: 10px;
+    color: black;
+}
+
+.menu div a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+}
+
+.heading{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.heading h2{
+    font-weight: normal;
+    font-size: 16px;
+    padding: 15px;
+    height: 15px;
+    border-radius: 35px;
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#line1{
+    text-align: center;
+}
+
+/* card hiding btn  */
+.hide {
+    display: none;
+}
+.mydiv:hover .hide {
+    display: block;
+    color: rgb(241, 234, 234);
+}
+.cartdiv:hover .hide {
+    display: block;
+    color: rgb(241, 234, 234);
+}
+
+
+
+/* slideshow1 starts here  */
+#slideshow1 {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+#slideshow1 img {
+    width: 100%;
+    margin: auto;
+}
+
+#rightArrow1 {
+    background-color: transparent;
+    border: none;
+    font-size: 60px;
+    position: absolute;
+    right: 13%;
+    margin-top: 150px;
+    color: grey;
+}
+
+#leftArrow1 {
+    background-color: transparent;
+    border: none;
+    font-size: 60px;
+    position: absolute;
+    left: 13%;
+    margin-top: 150px;
+    color: grey;
+}
+/* slideshow1 ends here  */
+
+
+/* slideshow2 starts here  */
+#slideshow2 {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+#slideshow2 img {
+    width: 90%;
+    margin: auto;
+}
+.slideshow2 h1{
+    text-align: center;
+}
+#rightArrow2 {
+    background-color: transparent;
+    border: none;
+    font-size: 60px;
+    position: absolute;
+    right: 13%;
+    margin-top: 200px;
+    color: grey;
+}
+#leftArrow2 {
+    background-color: transparent;
+    border: none;
+    font-size: 60px;
+    position: absolute;
+    left: 13%;
+    margin-top: 200px;
+    color: grey;
+}
+/* slideshow2 ends here  */
+
+
+/* slideshow3 starts here  */
+#slideshow3 {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+#slideshow3 img {
+    width: 90%;
+    margin: auto;
+}
+.slideshow3 h1{
+    text-align: center;
+}
+#rightArrow3 {
+    background-color: transparent;
+    border: none;
+    font-size: 60px;
+    position: absolute;
+    right: 13%;
+    margin-top: 200px;
+    color: grey;
+}
+#leftArrow3 {
+    background-color: transparent;
+    border: none;
+    font-size: 60px;
+    position: absolute;
+    left: 13%;
+    margin-top: 200px;
+    color: grey;
+}
+/* slideshow3 ends here  */
+
+.allproducts{
+    text-align: center;
+}
+.allproducts .grid1{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: auto;
+    gap: 20px;
+}
+.cartdiv{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+}
+.grid1 .cartdiv img{
+    width: 80%;
+}
+.cartdiv h5{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: -10px;
+    
+}
+.cartdiv h6{
+    font-size: 20px;
+    margin-top: -25px;
+    line-height: 0px;
+}
+
+
+
+
+/* footer starts here  */
+.footer{
+    display: flex;
+    /* border: 2px solid red; */
+}
+.footer #innerF{
+    background-color: rgb(245, 246, 247);
+    width: 70%;
+    margin: auto;
+    /* display: flex; */
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+#innerF div{
+    width: 70%;
+    display: flex;
+    margin: auto;
+    line-height: 25px;
+}
+#innerF div h4{
+    margin-left: -30px;
+}
+
+#innerF div p{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#footerlinks{
+    width: 60%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding: 20px;
+}
+#footerlinks div{
+    display: flex;
+    line-height: 0px;
+    flex-direction: column;
+}
+
+#sponsors #divs2{
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.payment{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.payment img{
+    margin-top: 10px;
+}
+.connect{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.connect img{
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+.copyright{
+    width: 70%;
+    margin: auto;
+    font: 20px;
+    color: grey;
+}
+
+/* filter box  */
+.filterdiv{
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.filterdiv div{
+    margin-right: 20px;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+}
+.price input{
+    width: 300px;
+    height: 25px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.filterdiv div select{
+    font-size: 20px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.nameoffilter{
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+#pricename{
+    margin-left: 50px;
+    margin-right: 150px;
+}
+.nameoffilter h4{
+    margin-right: 60px;
+    color: purple;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+/* filter box  */
+
+
+/* // scroll button  */
+#scrollupbtn img {
+    width: 30px;
+}
+
+#scrollupbtn {
+    display: none;
+    position: fixed;
+    bottom: 5%;
+    width: 70px;
+    right: 0;
+    z-index: 99;
+    font-size: 18px;
+    border-radius: 70%;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 10px black;
+    background-color: white;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 15px;
+    transition: opacity 0.3s ease-in-out;
+}
+#scrollupbtn.show {
+    opacity: 1;
+}
+
