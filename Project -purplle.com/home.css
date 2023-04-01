@@ -1,0 +1,389 @@
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: red; */
+}
+
+.advertisement{
+    background-color: rgb(249, 211, 232);
+}
+
+.advertisement div{
+    margin-left: 15%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    height: 52px;
+}
+#applink{
+    background-color:rgb(255, 20, 123);
+    color: #ffffff;
+    width: 150px;
+    height: 47px;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-top: 2px;
+    border: none;
+}
+.advertisement img{
+    height: 40px;
+    margin-top: 5px;
+}
+.advertisement p:nth-child(3){
+    border: 3px dotted rgb(255, 20, 123);
+    background-color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    /* padding: 0.3%; */
+}
+.advertisement p:nth-child(3) span{
+    color: rgb(255, 20, 123);
+    font-weight: bolder;
+}
+#closead{
+    background-color: transparent;
+    border: none;
+    font-size:18px;
+}
+
+/* app/support/cart starts here */
+.middlenav{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    height: 30px;
+}
+.middlenav div{
+   width: 80%; 
+   display: flex;
+   margin: auto;
+   justify-content: right;
+   
+} 
+.middlenav img{
+    height: 20px;
+    margin-top: 2px;
+}
+.middlenav span{
+    font-size: 22px;
+    font-weight: bolder;
+}
+.middlenav div a{
+    margin-top: 4px;
+}
+.middlenav button{
+    background-color: transparent;
+    border: none;
+}
+
+
+
+/* iconbox starts here  */
+.iconbox{
+    top: 0;
+    position: sticky;
+    background-color: white;
+    height: 84px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.iconbox #icon_cont{
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.iconbox input{
+    width: 200px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid purple;
+    height: 30px;
+    border-color: purple;
+    text-align: center;
+    font-size: 16px;
+    outline: none;
+    margin-top: 25px;
+}
+.iconbox #logo{
+    display: flex;
+    margin: 3px auto;
+    justify-self: center;
+    height: 80px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.iconbox button{
+    font-size: 30px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    margin-top: 10px;
+}
+
+.iconbox div div img{
+    margin-top: 15px;
+    height: 35px;
+}
+
+#hovermenu{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-size: 25px;
+    
+}
+
+/* .makeup1{
+    /* display: none;
+} */ */
+
+
+
+/* menu starts here  */
+.menu{
+    position: sticky;
+    top: 80px;
+    background-color: white;
+    height: 40px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.menu div{
+    width: 65%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    list-style: none;
+    position: relative;
+}
+.menu a{
+    text-decoration: none;
+    margin-top: 10px;
+    color: black;
+}
+.menu div a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+}
+
+/* dropdown menu entirely  */
+#forshadow{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    
+}
+
+.mainbar {
+    width: 60%;
+    height: 50px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    position: relative;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.mainbar div{
+    margin-top: 10px;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.column {
+    display: flex;
+    line-height: 10px;
+    /* width: 400px; */
+    flex-direction: column;
+    position: absolute;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: white;
+    /* border: 3px solid black; */
+}
+
+.makeup {
+    display: none;
+    transition: background-color 2s ease;
+    border: 2px solid red; 
+}
+
+.dropdown:hover .makeup {
+    display: block;
+    transition-delay: 2s;
+}
+
+.FirstColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 0;
+    /* border: 2px solid red; */
+    position: absolute;
+}
+
+.SecondColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 2px solid blue; */
+    /* margin-left: 250px; */
+    left: 400px;
+    position: absolute;
+    
+}
+.ThirdColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 800px;
+    position: absolute;
+}
+#colorit{
+    background-color: red;
+}
+/* makeup ends here   */
+
+
+
+.skincare {
+    display: none;  
+    transition-delay: 2s;  
+    border: 2px solid red;    
+}
+
+.dropdown:hover .skincare {
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    transition-delay: 2s;
+}
+
+
+/* skincare ends here  */
+
+
+
+
+.haircare{
+    display: none;
+    border: 2px solid red;
+    transition: background-color 2s ease;
+}
+
+.dropdown:hover .haircare {
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    transition-delay: 2s;
+}
+
+/* haircare ends here  */
+
+
+.appliances{
+    display: none;
+    width: 100%;
+    background-color: white;
+    border: 2px solid red;
+    transition: background-color 2s ease;
+}
+
+.dropdown:hover .appliances {
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    transition-delay: 2s;
+}
+/* appliances ends here  */
+
+.personalcare{
+    display: none;
+    border: 2px solid red;
+    transition: background-color 2s ease;
+}
+
+.dropdown:hover .personalcare{
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    transition-delay: 2s;
+}
+
+/* personalcare ends here  */
+.men{
+    display: none;
+    border: 2px solid red;
+    transition: background-color 2s ease;
+}
+
+.dropdown:hover .men{
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    transition-delay: 2s;
+}
+
+/* men ends here   */
+
+
+.fragrances{
+    display: none;
+    border: 2px solid red;
+    transition: background-color 2s ease;
+}
+
+.dropdown:hover .fragrances{
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    transition-delay: 2s;
+}
+/* fragrances ends here */
+
+
+.healthwellness{
+    display: none;
+    border: 2px solid red;
+    transition: background-color 2s ease;
+}
+.dropdown:hover .healthwellness{
+    display: block;
+    transition-delay: 2s;
+}
+/* healthwellness ends here  */
+
+.mombaby{
+    display: none;
+    border: 2px solid red;
+    transition: background-color 2s ease;
+}
+.dropdown:hover .mombaby{
+    display: block;
+    transition-duration: 2s;
+}
+/* dropdown menu ends here  */
+
+#slideshow1{
+    width: 70%;
+    margin:5px auto;
+}
+#slideshow1 img{
+    width: 100%;
+}
+.imagedisplay1{
+    width: 70%;
+    margin: auto;
+}
+.imagedisplay1 img{
+    width: 99%;
+    margin-left: 8px;
+}
+
+
