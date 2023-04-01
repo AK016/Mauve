@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mauve Cart</title>
+    <link rel="shortcut icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtUhmYiQ4CqfAq2pyp4xmp4jiILGXU2eTYvw&usqp=CAU"
+        type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css%22%3E">
+</head>
+<link rel="stylesheet" href="./cart.css">
+<body>
+    <div class="advertisement">
+        <div>
+            <a href="./home.html"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtUhmYiQ4CqfAq2pyp4xmp4jiILGXU2eTYvw&usqp=CAU"
+                    alt=""></a>
+            <p>⭐⭐FLAT Rs. 100 OFF on your first order! ⭐⭐</p>
+            <p> &nbsp Use Code:<span id="coupon">APPFIRST</span> &nbsp </p>
+            <a href="./app.html"><button id="applink">DOWNLOAD APP</button></a>
+            <button id="closead">X</button>
+        </div>
+    </div>
+    <div class="iconbox">
+        <div id="icon_cont">
+            <a href="./home.html"><img id="logo" src="./take 1.jpg-1.jpg" alt="Image Not Found"></a>
+            <div>
+                <button><input type="text" placeholder="type something..." id="search"> <i class="fa-solid fa-magnifying-glass"></i></button>
+                <button><i class="fa-solid fa-heart"></i></button>
+                <button><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="center">
+        <div class="inner">
+            <div class="left">
+                <div class="row">
+                    <h1><i class="fa-solid fa-cart-shopping-fast"></i> OFFERS AVAILABLE (3)</h1>
+                    <button id="viewoffers">View all</button>
+                    <div id="hoveroffers">
+                        <h1>AVAILABLE OFFER(3)</h1>
+                        <hr>
+                        <div>
+                            <p><i class="fa-solid fa-tag" style="color: #fb00ff;"></i> &nbsp; &nbsp; Exclusively for First Time Buyers, USE CODE: APPFIRST to Get Extra 5% Off On Every Order T&C</p>
+                            <button>View Products</button>
+                        </div>
+                        <div>
+                            <p><i class="fa-solid fa-tag" style="color: #fb00ff;"></i> &nbsp; &nbsp; Choose 4 Minis worth 399 on 399+ T&C</p>
+                            <button>View Products</button>
+                        </div>
+                        <div>
+                            <p><i class="fa-solid fa-tag" style="color: #fb00ff;"></i> &nbsp; &nbsp; Extra 10% off on 449+ T&C</p>
+                            <button>View Products</button>
+                        </div>
+                        <button id="closecoupon">Close</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <h1>My Cart(<span id="count">0</span>)</h1>
+                    <button>Shop More &gt;</button>
+                </div>
+                <div class="row">
+                    <h1><i class="fa-solid fa-square-check fa-beat-fade" style="color: #000000;"></i>You are missing out!</h1>
+                    <button>JOIN ELITE TODAY</button>
+                </div>
+                <div class="row">
+                    <h1><i class="fa-solid fa-circle-arrow-down fa-bounce" style="color: #fa00cc;"></i>Cart price dropped by 4%</h1>
+                    <button>View all</button>
+                </div>
+                <div class="products">
+                    <!-- append here  -->
+                </div>
+            </div>
+            <div class="right">
+                <div class="firstr">
+                    <p><i class="fa-sharp fa-solid fa-shield-halved" style="color: #e00099;font-size: 40px;"></i></p>
+                    <div>
+                        <h3>100% Safe Payments</h3>
+                        <p>Genuine Products | Easy</p>
+                        <p>Returns</p>
+                    </div>
+                </div>
+                <br>
+                <div class="pincode">
+                    <input type="number" placeholder="Enter Pincode" required id="pin_in"> <p id="hoverpincode"></p>
+                    <button id="checkpin">CHECK DELIEVERY</button>
+                    <button id="checkagain">Check Again</button>
+                </div>
+                <div class="totalprice">
+                    <h1>Order Total</h1>
+                    <h1 id="pricecount">0</h1>
+                </div>
+                <button id="placeorder">PLACE ORDER</button>
+                <p>Need help? Call AK @9686315358</p>
+            </div>
+        </div>
+    </div>
+    <div class="slideshow3">
+        <h1>CURRENTLY TRENDING</h1>
+        <button id="leftArrow3"> &lt; </button>
+        <button id="rightArrow3">&gt;</button>
+        <div id="slideshow3">
+            <!-- append your window slidshow here  -->
+        </div>
+    </div>
+    <br><br><br><br>
+</body>
+<script src="./cart.js"></script>
+<script src="./productsall.js"></script>
+<script src="https://kit.fontawesome.com/b2fe669610.js" crossorigin="anonymous"></script>
+</html>
