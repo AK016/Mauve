@@ -1,0 +1,436 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.advertisement {
+    background-color: rgb(249, 211, 232);
+}
+
+.advertisement div {
+    margin-left: 15%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    height: 52px;
+}
+
+#applink {
+    background-color: rgb(255, 20, 123);
+    color: #ffffff;
+    width: 150px;
+    height: 47px;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-top: 2px;
+    border: none;
+}
+
+.advertisement img {
+    height: 40px;
+    margin-top: 5px;
+}
+
+.advertisement p:nth-child(3) {
+    border: 3px dotted rgb(255, 20, 123);
+    background-color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    /* padding: 0.3%; */
+}
+
+.advertisement p:nth-child(3) span {
+    color: rgb(255, 20, 123);
+    font-weight: bolder;
+}
+
+#closead {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+}
+
+.iconbox {
+    top: 0;
+    position: sticky;
+    background-color: white;
+    height: 84px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.iconbox #icon_cont {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: left;
+}
+
+.iconbox input {
+    width: 200px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid purple;
+    height: 30px;
+    border-color: purple;
+    text-align: center;
+    font-size: 16px;
+    outline: none;
+    margin-top: 25px;
+}
+
+.iconbox #logo {
+    display: flex;
+    margin: 3px auto;
+    justify-self: center;
+    height: 80px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 100px;
+}
+
+.iconbox button {
+    font-size: 30px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    margin-top: 10px;
+}
+
+.iconbox #count {
+    color: palevioletred;
+    font-size: 25px;
+    position: absolute;
+    margin-top: 21px;
+}
+
+.iconbox div div img {
+    margin-top: 15px;
+    height: 35px;
+}
+
+.inner {
+    width: 70%;
+    display: flex;
+    margin:20px auto;
+    margin-left: 25%;
+}
+
+.row {
+    display: flex;
+    margin: auto;
+    min-width: 600px;
+    min-height: 70px;
+}
+
+.left div:nth-child(1) {
+    border: 1px solid rgb(251, 238, 246);
+    background-color: rgb(251, 238, 246);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.left div:nth-child(1) h1 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.left div:nth-child(1) button {
+    height: 20px;
+    width: 70px;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    color: darkmagenta;
+    margin-left: 350px;
+    margin-top: 20px;
+}
+
+
+
+.left div:nth-child(2) {
+    padding: 10px;
+}
+
+.left div:nth-child(2) h1 {
+    font-size: 23px;
+    font-weight: normal;
+}
+
+.left div:nth-child(2) button {
+    height: 20px;
+    width: 140px;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 6, 255);
+    margin-left: 400px;
+    margin-top: 15px;
+}
+
+
+
+.left div:nth-child(3) {
+    border: 1px solid rgb(251, 238, 246);
+    background-color: rgb(251, 238, 246);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.left div:nth-child(3) h1 {
+    font-size: 23px;
+    font-weight: normal;
+}
+
+.left div:nth-child(3) button {
+    height: 45px;
+    width: 160px;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    background-color: black;
+    color: goldenrod;
+    margin-left: 250px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+
+.left div:nth-child(4) {
+    border: 1px solid rgb(251, 238, 246);
+    background-color: rgb(251, 238, 246);
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.left div:nth-child(4) h1 {
+    font-size: 23px;
+    font-weight: normal;
+}
+
+.left div:nth-child(4) button {
+    font-size: 21px;
+    background-color: transparent;
+    border: none;
+    background-color: transparent;
+    color: blue;
+    margin-left: 280px;
+    margin-top: 0px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.right {
+    /* border: 2px solid black; */
+    margin-left: 50px;
+}
+
+.right div {
+    min-width: 300px;
+}
+
+.firstr {
+    border: 1px solid grey;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.firstr p,
+div {
+    /* margin-left: 20px; */
+    text-align: center;
+}
+
+.pincode #hoverpincode{
+    display: none;
+    font-size: 20px;
+    color: rgb(241, 8, 140);
+    border: 2px red solid;
+    height: 20px;
+}
+.pincode input{
+    height: 30px;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+}
+.pincode input:focus{
+    outline: none;
+    border-bottom: 2px solid purple;
+}
+.pincode button{
+    background-color: cornflowerblue;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    margin-left: -20px;
+}
+#checkagain{
+    background-color: cornflowerblue;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    /* font-size: 20px; */
+    display: none;
+    margin-left: 130px;
+}
+#placeorder{
+    height: 50px;
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    font-size: 22px;
+    color: #ffffff;
+    background-color: rgb(228, 9, 128);
+}
+
+
+
+
+/* slideshow3 starts here  */
+#slideshow3 {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+#slideshow3 img {
+    width: 70%;
+    margin: auto;
+}
+.slideshow3 h1{
+    text-align: center;
+}
+#rightArrow3 {
+    background-color: transparent;
+    border: none;
+    font-size: 60px;
+    position: absolute;
+    right: 13%;
+    margin-top: 200px;
+    color: grey;
+}
+#leftArrow3 {
+    background-color: transparent;
+    border: none;
+    font-size: 60px;
+    position: absolute;
+    left: 13%;
+    margin-top: 200px;
+    color: grey;
+}
+/* slideshow3 ends here  */
+
+.hide {
+    display: none;
+}
+.mydiv:hover .hide {
+    display: block;
+    color: rgb(241, 234, 234);
+}
+.cartdiv:hover .hide {
+    display: block;
+    color: rgb(241, 234, 234);
+}
+
+
+
+#hoveroffers{
+    background-color: white;
+    margin-left: 100px;
+    max-width: 400px;
+    position: absolute;
+    display: none;
+}
+#hoveroffers div{
+    background-color: white;
+    text-align: left;
+}
+#hoveroffers div button{
+    background-color: transparent;
+    color: rgb(244, 4, 168);
+    font-size: 20px;
+    margin-left: 25%;
+}
+#closecoupon{
+    background-color: red;
+    color: white;
+    border: none;
+    margin-left: -40px;
+}
+
+
+
+/* container stylying starts here  */
+.products{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.products div{
+    max-width: 300px;
+    max-height: 500px;
+    background-color: white;
+}
+.divimage{
+    background-color: #ffffff;
+    width: 90%;
+}
+.divdetails{
+    display: flex;
+    flex-direction: column;
+}
+.divdetails h5{
+    margin-top: -10px;
+}
+.divdetails h6{
+    color: cornflowerblue;
+    font-size: 18px;
+    margin-top: -10px;
+}
+#quanty{
+    background-color: white;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: -20px;
+    box-shadow: none;
+    border: none;
+    /* margin-left:0px ; */
+}
+
+#quanty p{
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 3px;
+    font-size: 20px;
+}
+#incre{
+    margin-left: 0px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: green;
+}
+#decre{
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+    color: #ffffff;
+    background-color: red;
+}
