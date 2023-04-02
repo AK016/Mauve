@@ -152,42 +152,103 @@ let tbody = document.querySelector("tbody")
 display(cart)
 
 function display(data) {
-    container.innerHTML=""
-    for(let i=0;i<data.length;i++){
-        let card=document.createElement("div")
-        card.style.backgroundColor="white"
-        card.style.boxShadow="rgba(0, 0, 0, 0.16) 0px 1px 4px"
+    container.innerHTML = ""
+    for (let i = 0; i < data.length; i++) {
+        let card = document.createElement("div")
+        card.style.backgroundColor = "white"
+        card.style.boxShadow = "rgba(0, 0, 0, 0.16) 0px 1px 4px"
 
-        let divimage=document.createElement("div")
-        divimage.setAttribute("class","divimage")
-        let image=document.createElement("img");
-        image.src=data[i].image_link
+        let divimage = document.createElement("div")
+        divimage.setAttribute("class", "divimage")
+        let image = document.createElement("img");
+        image.src = data[i].image_link
         divimage.append(image)
 
-        let divdetails=document.createElement("div")
-        divdetails.setAttribute("class","divdetails")
-        let name=document.createElement("h2")
+        let divdetails = document.createElement("div")
+        divdetails.setAttribute("class", "divdetails")
+        let name = document.createElement("h2")
         let brand = document.createElement("h5")
         let price = document.createElement("h6")
-        let incre=document.createElement("button")
-        let quant=document.createElement("p")
-        let decre=document.createElement("button")
-        let quanty=document.createElement("div")
-        quanty.setAttribute("id","quanty")
+        let incre = document.createElement("button")
+        let quant = document.createElement("p")
+        let decre = document.createElement("button")
+        let remove = document.createElement("button")
+        let quanty = document.createElement("div")
+        quanty.setAttribute("id", "quanty")
 
         name.innerText = data[i].name
         brand.innerText = data[i].brand
-        price.innerText = data[i].price
-        incre.innerText="+"
-        incre.setAttribute("id","incre")
-        quant.innerText=data[i].QUANTITY
-        decre.innerText="-"
-        decre.setAttribute("id","decre")
+        price.innerText = data[i].price + "$"
 
-        quanty.append(incre,quant,decre)
-        divdetails.append(name,brand,price,quanty)
-        card.append(divimage,divdetails)
+        incre.innerText = "+"
+        incre.setAttribute("id", "incre")
+        incre.addEventListener("click", function () {
+            data[i].QUANTITY++;
+            quant.innerText = data[i].QUANTITY
+            localStorage.setItem("cartlist", JSON.stringify(data))
+            display(cart)
+        })
+
+        decre.setAttribute("id", "incre")
+        decre.addEventListener("click", function () {
+            if (data[i].QUANTITY > 1) {
+                data[i].QUANTITY--;
+                quant.innerText = data[i].QUANTITY
+                localStorage.setItem("cartlist", JSON.stringify(data))
+                display(cart)
+            }
+        })
+
+
+
+        quant.innerText = data[i].QUANTITY
+
+        decre.innerText = "-"
+        decre.setAttribute("id", "decre")
+
+        remove.innerText = "Remove"
+        remove.setAttribute("id", "remove")
+        remove.addEventListener("click", function () {
+            data.splice(i, 1)
+            localStorage.setItem("cartlist", JSON.stringify(data))
+            count.innerText = cart.length
+            display(data);
+        })
+
+        quanty.append(incre, quant, decre)
+        divdetails.append(name, brand, price, quanty, remove)
+        card.append(divimage, divdetails)
         container.append(card)
     }
+    let totalprice = document.querySelector("#pricecount")
+    let total = 0;
+    for (let i = 0; i < data.length; i++) {
+        total += +data[i].price * +data[i].QUANTITY
+        total.toFixed(2);
+    }
+    total.toFixed(2);
+    totalprice.innerText = total + "$";
+
 }
 // products display in cart
+
+
+// ordersuccessful 
+let placeorder = document.querySelector("#placeorder")
+let ordersuccessful = document.querySelector("#ordersuccessful")
+placeorder.addEventListener("click", function () {
+    if (container.innerHTML != "") {
+        placeorder.style.display = "none"
+        ordersuccessful.style.display = "block"
+    }
+})
+
+let orderclose = document.querySelector("#orderclose")
+orderclose.addEventListener("click", function () {
+    localStorage.clear("cartlist")
+    container.innerHTML = ""
+    ordersuccessful.style.display = "none"
+    
+    window.location.href = "./index.html";
+})
+
