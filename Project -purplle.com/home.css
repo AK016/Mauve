@@ -152,7 +152,32 @@ a {
     margin: auto;
     justify-content: center;
     font-size: 25px;
-
+}
+#burgermenu{
+    min-width: 200px;
+    min-height: 200px;
+    text-align: left;
+    text-decoration: none;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    background-color: white;
+    display: none;
+    margin-top: 50px;
+    margin-right: -200px;
+    line-height: 25px;
+    padding: 10px;
+}
+#burgermenu a{
+    color: black;
+}
+#burgermenu a:nth-child(6){
+    color: blue;
+}
+#hoverthemenu:hover #burgermenu{
+    display: flex;
+    transition: 3s ease-in-out;
 }
 
 /* menu starts here  */

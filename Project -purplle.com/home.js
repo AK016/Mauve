@@ -5,6 +5,8 @@ closead.addEventListener("click", function () {
     advertisement.style.display = "none";
 });
 
+
+
 // first slideshow1 
 function slideshow1(images) {
     var currentIndex = 0;

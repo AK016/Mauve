@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+    position: relative;
+}
+.signinpage{
+    position: absolute;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    width: 550px;
+    min-height: 550px;
+    background-color: black;
+    margin-top: -50%;
+    margin-left: 35%;
+    text-align: center;
+    border-radius: 30px;
+    display: block;
+}
+.signinpage form{
+    margin-top: 170px;
+    text-align: center;
+    
+}
+.signinpage form img{
+    width: 50%;
+    margin-left: 10px;
+    margin-top: -160px;
+    border-radius:60%;
+}
+.signinpage form input{
+    width: 200px;
+    height: 30px;
+    font-size:20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.signinpage p{
+    font-size: 20px;
+    color: white;
+}
+.signinpage form input:nth-child(4){
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    border: 2px solid red;
+    color: rgb(244, 0, 0);
+    padding: 8px;
+    border-radius: 10px;
+}
+#home a{
+    color: white;
+    text-decoration: none;
+    
+}
+.signinpage #signuphere{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 110, 110);
+}
+
+
+
+
+.signuppage{
+    position: absolute;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    width: 550px;
+    min-height: 600px;
+    background-color: black;
+    margin-top: -50%;
+    margin-left: 35%;
+    text-align: center;
+    border-radius: 30px;
+    display: none;
+}
+.signuppage form{
+    margin-top: 170px;
+    text-align: center;
+    
+}
+.signuppage form img{
+    width: 50%;
+    margin-left: 10px;
+    margin-top: -160px;
+    border-radius:60%;
+}
+.signuppage form input{
+    width: 200px;
+    height: 30px;
+    font-size:20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.signuppage p{
+    color: white;
+}
+.signuppage form input:nth-child(5){
+    width: 100px;
+    margin-top: 0px;
+    height: 45px;
+    color: white;
+    background-color:green;
+    border-radius: 10px;
+    border-color: palevioletred;
+}
+.signuppage #signinhere{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 110, 110);
+}
+#reset{
+    color: red;
+    margin-top: -20px;
+    margin-left: 100px;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.iconbox {
+    top: 30px;
+    position: absolute;
+    background-color: transparent;
+    height: 84px;
+    color: red;
+    left: 770px;
+    border-radius: 20px;
+    padding-right: 40px;
+    border: 2px solid red;
+    margin-left: -100px;
+    margin-top: -20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.iconbox #icon_cont {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+#icon_cont div{
+    display: flex;
+}
+
+.iconbox input {
+    width: 200px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid purple;
+    height: 30px;
+    border-color: purple;
+    text-align: center;
+    font-size: 16px;
+    outline: none;
+    margin-top: 25px;
+}
+
+.iconbox #logo {
+    display: flex;
+    margin: 3px auto;
+    justify-self: center;
+    height: 80px;
+    width: 100px;
+    margin-left: -20px;
+    border-radius: 50%;
+}
+
+.iconbox button {
+    font-size: 30px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    margin-top: 10px;
+}
+
+.iconbox div div img {
+    margin-top: 15px;
+    height: 35px;
+}

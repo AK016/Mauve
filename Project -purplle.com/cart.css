@@ -190,7 +190,7 @@ a {
     font-weight: normal;
 }
 
-.left div:nth-child(3) button {
+.left div #elitebtn {
     height: 45px;
     width: 160px;
     font-size: 15px;
@@ -337,6 +337,9 @@ div {
 }
 /* slideshow3 ends here  */
 
+
+
+
 .hide {
     display: none;
 }
@@ -366,6 +369,8 @@ div {
     background-color: transparent;
     color: rgb(244, 4, 168);
     font-size: 20px;
+    width: 200px;
+    margin-top: 0px;
     margin-left: 25%;
 }
 #closecoupon{
@@ -432,5 +437,54 @@ div {
     width: 30px;
     height: 30px;
     color: #ffffff;
+    background-color: red;
+}
+#remove{
+    margin-left:70px;
+    border-radius: 2px solid;
+}
+
+/* ordersuccessful div  */
+#ordersuccessful{
+    display: none;
+    position: absolute;
+    /* background-color: black; */
+    margin-left: -2%;
+    /* border: 5px solid red; */
+    padding: 20px;
+    margin-top: 50px;
+
+    max-width: 450px;
+    background-image:url(https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2021/10/banner-tracking.png) ;
+}
+#ordersuccessful h2{
+    color: black;
+}
+#ordersuccessful p{
+    font-size: 18px;
+    color: black;
+}
+#ordersuccessful a{
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+
+}
+#ordersuccessful #orderclose{
+    width: 70px;
+    height: 30px;
+    font-size: 17px;
+    color: gold;
+    border: none;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#backtoproductpage{
+    font-size: 20px;
+    color: black;
+}
+#backtoproductpage:hover{
     background-color: red;
 }

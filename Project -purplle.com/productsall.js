@@ -302,7 +302,7 @@ colorFilter.addEventListener("change", () => {
 
 
 
-let api = "http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline"
+let api = "https://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline"
 let site = fetch(api)
 site.then(function (data) {
     return data.json();
