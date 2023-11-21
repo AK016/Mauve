@@ -50,4 +50,3 @@ Mauve is released under the MIT License. You are free to use, modify, and distri
 Thank you for choosing Mauve for your beauty shopping needs. We hope you have a delightful experience! If you have any questions or feedback, please don't hesitate to contact us.
 
 Happy shopping! 💄🛍️
-
