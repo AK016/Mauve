@@ -1,4 +1,5 @@
 Mauve - Your Beauty Destination
+
 Welcome to Mauve, your one-stop beauty destination! Mauve is a web application that aims to provide you with a seamless online shopping experience for all your beauty needs. With features like sign up/sign in, a product page, a cart page, and engaging ads on the homepage, Mauve makes beauty shopping a breeze.
 
 Table of Contents
