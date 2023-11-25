@@ -17,23 +17,23 @@ To explore Mauve and its features, visit our website at [https://mauvebeauty.net
 ## Features
 1. **Sign Up / Sign In**
    - Mauve provides a user-friendly sign-up and sign-in process. Create your account to enjoy a personalized shopping experience or log in if you're already a member.
-   ![Sign Up / Sign In](![image](https://github.com/AK016/Mauve/assets/123861375/80fbd356-f8a6-4cc6-9751-6636bceeadd6)
-)
+   ![Sign Up / Sign In](https://github.com/AK016/Mauve/assets/123861375/80fbd356-f8a6-4cc6-9751-6636bceeadd6)
+
 
 2. **Homepage**
    - Our homepage welcomes you with engaging beauty advertisements showcasing the latest trends and products. Explore these ads for inspiration and stay updated on the beauty industry.
-   ![Homepage](![image](https://github.com/AK016/Mauve/assets/123861375/bc2d6697-3db6-44bd-b198-90f5c170512c)
-)
+   ![Homepage](https://github.com/AK016/Mauve/assets/123861375/bc2d6697-3db6-44bd-b198-90f5c170512c)
+
 
 3. **Product Page**
    - Discover a wide range of beauty products on our product page. Browse through categories, view product details, and add your favorite items to the cart.
-   ![Product Page](![image](https://github.com/AK016/Mauve/assets/123861375/befc7b20-89ab-4ef0-97f1-2069afe21e29)
-)
+   ![Product Page](https://github.com/AK016/Mauve/assets/123861375/befc7b20-89ab-4ef0-97f1-2069afe21e29)
+
 
 4. **Cart Page**
    - The cart page allows you to review your selected items, update quantities, and proceed to checkout. Enjoy a hassle-free shopping experience with Mauve.
-   ![Cart Page](![image](https://github.com/AK016/Mauve/assets/123861375/ed5f6d64-eaba-46f8-bc1a-88fe6702a25e)
-)
+   ![Cart Page](https://github.com/AK016/Mauve/assets/123861375/ed5f6d64-eaba-46f8-bc1a-88fe6702a25e)
+
 
 ## Usage
 ### Sign Up / Sign In
